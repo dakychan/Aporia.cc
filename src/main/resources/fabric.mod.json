@@ -2,9 +2,9 @@
 {
   "accessWidener": "aporia.accesswidener",
   "schemaVersion": 1,
-  "id": "Aporia.cc",
+  "id": "aporia",
   "version": "reborn",
-  "name": "Aporia",
+  "name": "Aporia.cc",
   "description": "A tiny util mod for gameplay and PvP",
   "authors": [
     "DUsky2",
