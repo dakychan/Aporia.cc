@@ -5,8 +5,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import aporia.cc.core.Main;
-import aporia.cc.implement.features.modules.render.Hud;
+import aporia.cc.module.impl.render.Hud;
 
 @Mixin(BossBarHud.class)
 public class BossBarHudMixin {

@@ -1,6 +1,6 @@
 package aporia.cc.api.file;
 
-import aporia.cc.common.util.logger.LoggerUtil;
+import aporia.cc.api.base.common.util.logger.LoggerUtil;
 
 import java.io.File;
 import java.util.ArrayList;

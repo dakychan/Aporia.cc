@@ -6,8 +6,8 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import aporia.cc.common.QuickImports;
-import aporia.cc.implement.features.modules.render.WorldTweaks;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.module.impl.render.WorldTweaks;
 
 @Mixin(ClientWorld.Properties.class)
 public class ClientWorldPropertiesMixin implements QuickImports {

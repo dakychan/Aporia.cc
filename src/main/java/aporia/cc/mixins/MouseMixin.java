@@ -13,10 +13,10 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.keyboard.HotBarScrollEvent;
-import aporia.cc.implement.events.keyboard.KeyEvent;
-import aporia.cc.implement.events.keyboard.MouseRotationEvent;
-import aporia.cc.implement.events.render.FovEvent;
+import aporia.cc.api.event.impl.keyboard.HotBarScrollEvent;
+import aporia.cc.api.event.impl.keyboard.KeyEvent;
+import aporia.cc.api.event.impl.keyboard.MouseRotationEvent;
+import aporia.cc.api.event.impl.render.FovEvent;
 
 @Mixin(Mouse.class)
 public class MouseMixin {

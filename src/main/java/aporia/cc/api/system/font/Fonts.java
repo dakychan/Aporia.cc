@@ -3,7 +3,7 @@ package aporia.cc.api.system.font;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
-import aporia.cc.core.Main;
+import aporia.cc.api.base.core.Main;
 
 import java.awt.*;
 import java.io.InputStream;

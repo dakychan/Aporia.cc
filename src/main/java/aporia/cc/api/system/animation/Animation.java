@@ -2,7 +2,7 @@ package aporia.cc.api.system.animation;
 
 import lombok.Setter;
 import lombok.experimental.Accessors;
-import aporia.cc.common.util.math.Counter;
+import aporia.cc.api.base.common.util.math.Counter;
 
 import static aporia.cc.api.system.animation.Direction.FORWARDS;
 

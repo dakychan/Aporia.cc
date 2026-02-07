@@ -1,28 +1,22 @@
 package aporia.cc.mixins;
 
-import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import com.llamalad7.mixinextras.sugar.Local;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
-import net.minecraft.client.render.entity.state.LivingEntityRenderState;
 import net.minecraft.client.render.item.HeldItemRenderer;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ModelTransformationMode;
 import net.minecraft.util.Arm;
 import net.minecraft.util.Hand;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.item.HandAnimationEvent;
-import aporia.cc.implement.events.item.HandOffsetEvent;
-import aporia.cc.implement.events.render.ItemRendererEvent;
+import aporia.cc.api.event.impl.item.HandAnimationEvent;
+import aporia.cc.api.event.impl.item.HandOffsetEvent;
+import aporia.cc.api.event.impl.render.ItemRendererEvent;
 
 @Mixin(HeldItemRenderer.class)
 public abstract class HeldItemRendererMixin {

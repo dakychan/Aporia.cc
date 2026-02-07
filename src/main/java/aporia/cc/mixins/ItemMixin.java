@@ -1,14 +1,12 @@
 package aporia.cc.mixins;
 
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.util.math.Vec3d;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.Angle;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RotationController;
+import aporia.cc.module.impl.combat.killaura.rotation.RotationController;
 
 @Mixin(Item.class)
 public class ItemMixin {

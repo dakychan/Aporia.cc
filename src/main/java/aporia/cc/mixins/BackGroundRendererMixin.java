@@ -12,9 +12,9 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.util.color.ColorUtil;
-import aporia.cc.implement.events.render.FogEvent;
-import aporia.cc.implement.features.modules.render.NoRender;
+import aporia.cc.api.base.common.util.color.ColorUtil;
+import aporia.cc.api.event.impl.render.FogEvent;
+import aporia.cc.module.impl.render.NoRender;
 
 @Mixin(BackgroundRenderer.class)
 public class BackGroundRendererMixin {

@@ -15,8 +15,8 @@ import org.joml.Vector4f;
 import org.lwjgl.opengl.GL13;
 import aporia.cc.api.system.shape.Shape;
 import aporia.cc.api.system.shape.ShapeProperties;
-import aporia.cc.common.QuickImports;
-import aporia.cc.common.util.color.ColorUtil;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.base.common.util.color.ColorUtil;
 
 public class Blur implements Shape, QuickImports {
     private final ShaderProgramKey SHADER_KEY = new ShaderProgramKey(Identifier.of("minecraft", "core/blur"), VertexFormats.POSITION, Defines.EMPTY);

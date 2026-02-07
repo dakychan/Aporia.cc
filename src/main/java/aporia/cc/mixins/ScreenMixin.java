@@ -10,8 +10,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.chat.ChatEvent;
-import aporia.cc.implement.screens.menu.MenuScreen;
+import aporia.cc.api.event.impl.chat.ChatEvent;
+import aporia.cc.api.ui.menu.MenuScreen;
 
 @Mixin(Screen.class)
 public class ScreenMixin {

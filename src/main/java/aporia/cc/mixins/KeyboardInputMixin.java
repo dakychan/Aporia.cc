@@ -8,11 +8,11 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.util.entity.PlayerInventoryComponent;
-import aporia.cc.implement.events.player.InputEvent;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RotationPlan;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.Angle;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RotationController;
+import aporia.cc.api.base.common.util.entity.PlayerInventoryComponent;
+import aporia.cc.api.event.impl.player.InputEvent;
+import aporia.cc.module.impl.combat.killaura.rotation.RotationPlan;
+import aporia.cc.module.impl.combat.killaura.rotation.Angle;
+import aporia.cc.module.impl.combat.killaura.rotation.RotationController;
 
 @Mixin(KeyboardInput.class)
 public class KeyboardInputMixin extends InputMixin {

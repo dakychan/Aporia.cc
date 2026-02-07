@@ -4,7 +4,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.FieldDefaults;
 import aporia.cc.api.file.impl.*;
-import aporia.cc.core.Main;
+import aporia.cc.api.base.core.Main;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -6,14 +6,14 @@ import net.minecraft.screen.slot.SlotActionType;
 import net.minecraft.util.Formatting;
 import aporia.cc.api.event.EventHandler;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.QuickImports;
-import aporia.cc.common.QuickLogger;
-import aporia.cc.common.util.entity.PlayerInventoryUtil;
-import aporia.cc.common.util.world.ServerUtil;
-import aporia.cc.common.util.other.StopWatch;
-import aporia.cc.implement.events.packet.PacketEvent;
-import aporia.cc.implement.events.player.TickEvent;
-import aporia.cc.implement.features.draggables.Notifications;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.base.common.QuickLogger;
+import aporia.cc.api.base.common.util.entity.PlayerInventoryUtil;
+import aporia.cc.api.base.common.util.world.ServerUtil;
+import aporia.cc.api.base.common.util.other.StopWatch;
+import aporia.cc.api.event.impl.packet.PacketEvent;
+import aporia.cc.api.event.impl.player.TickEvent;
+import aporia.cc.api.draggable.impl.Notifications;
 
 public class RCTRepository implements QuickImports, QuickLogger {
     private final StopWatch stopWatch = new StopWatch();

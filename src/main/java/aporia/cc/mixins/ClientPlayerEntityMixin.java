@@ -17,19 +17,18 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
 import aporia.cc.api.event.types.EventType;
-import aporia.cc.common.util.entity.PlayerInventoryComponent;
-import aporia.cc.implement.events.block.PushEvent;
-import aporia.cc.implement.events.container.CloseScreenEvent;
-import aporia.cc.implement.events.item.UsingItemEvent;
-import aporia.cc.implement.events.player.*;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RotationController;
-import aporia.cc.implement.features.modules.movement.AutoSprint;
-import aporia.cc.implement.features.modules.movement.NoSlow;
+import aporia.cc.api.base.common.util.entity.PlayerInventoryComponent;
+import aporia.cc.api.event.impl.block.PushEvent;
+import aporia.cc.api.event.impl.container.CloseScreenEvent;
+import aporia.cc.api.event.impl.item.UsingItemEvent;
+import aporia.cc.api.event.impl.player.*;
+import aporia.cc.module.impl.combat.killaura.rotation.RotationController;
+import aporia.cc.module.impl.movement.AutoSprint;
+import aporia.cc.module.impl.movement.NoSlow;
 
 @Mixin(ClientPlayerEntity.class)
 public abstract class ClientPlayerEntityMixin extends AbstractClientPlayerEntity {

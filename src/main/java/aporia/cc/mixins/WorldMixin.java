@@ -8,8 +8,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.QuickImports;
-import aporia.cc.implement.events.block.BlockUpdateEvent;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.event.impl.block.BlockUpdateEvent;
 
 @Mixin(World.class)
 public abstract class WorldMixin implements QuickImports {

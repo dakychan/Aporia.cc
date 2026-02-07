@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.block.BlockCollisionEvent;
+import aporia.cc.api.event.impl.block.BlockCollisionEvent;
 
 @Mixin(BlockCollisionSpliterator.class)
 public abstract class BlockCollisionSpliteratorMixin {

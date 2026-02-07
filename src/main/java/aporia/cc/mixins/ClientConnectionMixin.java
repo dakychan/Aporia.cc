@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.packet.PacketEvent;
+import aporia.cc.api.event.impl.packet.PacketEvent;
 
 @Mixin(ClientConnection.class)
 public class ClientConnectionMixin {

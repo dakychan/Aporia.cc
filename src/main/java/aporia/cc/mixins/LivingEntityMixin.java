@@ -19,10 +19,10 @@ import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.block.PushEvent;
-import aporia.cc.implement.events.item.SwingDurationEvent;
-import aporia.cc.implement.events.player.JumpEvent;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RotationController;
+import aporia.cc.api.event.impl.block.PushEvent;
+import aporia.cc.api.event.impl.item.SwingDurationEvent;
+import aporia.cc.api.event.impl.player.JumpEvent;
+import aporia.cc.module.impl.combat.killaura.rotation.RotationController;
 
 @Mixin(LivingEntity.class)
 public abstract class LivingEntityMixin {

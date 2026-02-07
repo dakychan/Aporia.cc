@@ -17,12 +17,12 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import aporia.cc.api.repository.friend.FriendUtils;
-import aporia.cc.common.QuickImports;
-import aporia.cc.common.util.color.ColorUtil;
-import aporia.cc.common.util.math.MathUtil;
-import aporia.cc.common.util.math.ProjectionUtil;
-import aporia.cc.common.util.render.Render3DUtil;
-import aporia.cc.core.Main;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.base.common.util.color.ColorUtil;
+import aporia.cc.api.base.common.util.math.MathUtil;
+import aporia.cc.api.base.common.util.math.ProjectionUtil;
+import aporia.cc.api.base.common.util.render.Render3DUtil;
+import aporia.cc.api.base.core.Main;
 
 @Mixin(EntityRenderDispatcher.class)
 public class EntityRenderDispatcherMixin implements QuickImports {

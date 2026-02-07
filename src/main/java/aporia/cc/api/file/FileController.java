@@ -5,7 +5,7 @@ import lombok.experimental.FieldDefaults;
 import aporia.cc.api.file.exception.FileLoadException;
 import aporia.cc.api.file.exception.FileSaveException;
 import aporia.cc.api.file.impl.ModuleFile;
-import aporia.cc.common.util.logger.LoggerUtil;
+import aporia.cc.api.base.common.util.logger.LoggerUtil;
 
 import java.io.File;
 import java.util.List;

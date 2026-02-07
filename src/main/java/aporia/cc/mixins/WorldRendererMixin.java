@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
-import aporia.cc.implement.features.modules.render.BlockHighLight;
+import aporia.cc.module.impl.render.BlockHighLight;
 
 @Mixin(WorldRenderer.class)
 public abstract class WorldRendererMixin {

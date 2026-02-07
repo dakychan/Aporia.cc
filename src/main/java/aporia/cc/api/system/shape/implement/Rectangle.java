@@ -12,10 +12,10 @@ import net.minecraft.util.Identifier;
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
 import org.joml.Vector4f;
-import aporia.cc.common.QuickImports;
+import aporia.cc.api.base.common.QuickImports;
 import aporia.cc.api.system.shape.Shape;
 import aporia.cc.api.system.shape.ShapeProperties;
-import aporia.cc.common.util.color.ColorUtil;
+import aporia.cc.api.base.common.util.color.ColorUtil;
 
 public class Rectangle implements Shape, QuickImports {
     private final ShaderProgramKey SHADER_KEY = new ShaderProgramKey(Identifier.of("minecraft", "core/round"), VertexFormats.POSITION, Defines.EMPTY);

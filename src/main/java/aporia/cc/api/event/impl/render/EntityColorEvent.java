@@ -1,0 +1,16 @@
+package aporia.cc.api.event.impl.render;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.experimental.FieldDefaults;
+import aporia.cc.api.event.events.callables.EventCancellable;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class EntityColorEvent extends EventCancellable {
+    int color;
+}

@@ -9,7 +9,7 @@ import lombok.experimental.FieldDefaults;
 import aporia.cc.api.file.ClientFile;
 import aporia.cc.api.file.exception.FileLoadException;
 import aporia.cc.api.file.exception.FileSaveException;
-import aporia.cc.implement.features.commands.CommandDispatcher;
+import aporia.cc.api.command.impl.CommandDispatcher;
 
 import java.io.File;
 import java.io.FileReader;

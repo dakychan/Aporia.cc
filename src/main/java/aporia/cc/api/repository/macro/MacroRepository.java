@@ -2,9 +2,9 @@ package aporia.cc.api.repository.macro;
 
 import aporia.cc.api.event.EventManager;
 import aporia.cc.api.event.EventHandler;
-import aporia.cc.implement.events.keyboard.KeyEvent;
-import aporia.cc.common.QuickImports;
-import aporia.cc.common.QuickLogger;
+import aporia.cc.api.event.impl.keyboard.KeyEvent;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.base.common.QuickLogger;
 
 import java.util.ArrayList;
 import java.util.List;

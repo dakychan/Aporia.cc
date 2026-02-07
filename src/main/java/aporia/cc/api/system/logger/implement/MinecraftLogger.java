@@ -3,7 +3,7 @@ package aporia.cc.api.system.logger.implement;
 import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
 import aporia.cc.api.system.logger.Logger;
-import aporia.cc.common.QuickImports;
+import aporia.cc.api.base.common.QuickImports;
 
 import java.util.Arrays;
 

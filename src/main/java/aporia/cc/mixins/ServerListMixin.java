@@ -19,7 +19,7 @@ import java.util.List;
 @Mixin(ServerList.class)
 public class ServerListMixin {
     @Unique private final List<ServerInfo> sponsorServers = List.of(new ServerInfo("Лучший HvH сервер!", "online4.clearworld.pw", ServerInfo.ServerType.REALM)
-            , new ServerInfo("Много режимов + подарки!", "zenith.metahvh.space", ServerInfo.ServerType.REALM));
+            , new ServerInfo("Много режимов + подарки!", "aporia.metahvh.space", ServerInfo.ServerType.REALM));
 
     @Shadow @Final private List<ServerInfo> servers;
 

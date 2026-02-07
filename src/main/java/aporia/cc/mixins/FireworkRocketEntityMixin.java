@@ -10,9 +10,9 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.QuickImports;
-import aporia.cc.implement.events.player.FireworkEvent;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RotationController;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.event.impl.player.FireworkEvent;
+import aporia.cc.module.impl.combat.killaura.rotation.RotationController;
 
 @Mixin(FireworkRocketEntity.class)
 public class FireworkRocketEntityMixin implements QuickImports {

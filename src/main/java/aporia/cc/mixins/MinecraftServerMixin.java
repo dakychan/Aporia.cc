@@ -5,9 +5,9 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import aporia.cc.core.Main;
+import aporia.cc.api.base.core.Main;
 import aporia.cc.api.file.exception.FileProcessingException;
-import aporia.cc.common.util.logger.LoggerUtil;
+import aporia.cc.api.base.common.util.logger.LoggerUtil;
 
 @Mixin(MinecraftServer.class)
 public class MinecraftServerMixin {

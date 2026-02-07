@@ -3,7 +3,7 @@ package aporia.cc.api.system.localization;
 import com.google.gson.reflect.TypeToken;
 import lombok.SneakyThrows;
 import net.minecraft.util.Identifier;
-import aporia.cc.common.QuickImports;
+import aporia.cc.api.base.common.QuickImports;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

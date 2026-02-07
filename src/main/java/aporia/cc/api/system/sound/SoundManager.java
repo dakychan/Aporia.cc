@@ -11,11 +11,8 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import ru.kotopushka.compiler.sdk.annotations.Compile;
-import ru.kotopushka.compiler.sdk.annotations.Initialization;
-import ru.kotopushka.compiler.sdk.annotations.VMProtect;
-import ru.kotopushka.compiler.sdk.enums.VMProtectType;
-import aporia.cc.common.QuickImports;
-import aporia.cc.common.util.entity.PlayerIntersectionUtil;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.base.common.util.entity.PlayerIntersectionUtil;
 
 @Setter
 @Getter

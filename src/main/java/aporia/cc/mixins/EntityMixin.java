@@ -11,9 +11,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.QuickImports;
-import aporia.cc.implement.events.player.BoundingBoxControlEvent;
-import aporia.cc.implement.events.player.PlayerVelocityStrafeEvent;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.event.impl.player.BoundingBoxControlEvent;
+import aporia.cc.api.event.impl.player.PlayerVelocityStrafeEvent;
 
 @Mixin(Entity.class)
 public abstract class EntityMixin implements QuickImports {

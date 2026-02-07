@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "aporia.cc.core.Main"
+      "aporia.cc.api.base.core.Main"
     ]
   },
   "mixins": [

@@ -13,9 +13,9 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.render.CameraEvent;
-import aporia.cc.implement.events.render.CameraPositionEvent;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.Angle;
+import aporia.cc.api.event.impl.render.CameraEvent;
+import aporia.cc.api.event.impl.render.CameraPositionEvent;
+import aporia.cc.module.impl.combat.killaura.rotation.Angle;
 
 @Mixin(Camera.class)
 public abstract class CameraMixin {

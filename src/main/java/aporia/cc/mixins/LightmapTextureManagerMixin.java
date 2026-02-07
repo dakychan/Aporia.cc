@@ -4,7 +4,7 @@ import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import net.minecraft.client.render.LightmapTextureManager;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import aporia.cc.implement.features.modules.render.WorldTweaks;
+import aporia.cc.module.impl.render.WorldTweaks;
 
 @Mixin(LightmapTextureManager.class)
 public class LightmapTextureManagerMixin {

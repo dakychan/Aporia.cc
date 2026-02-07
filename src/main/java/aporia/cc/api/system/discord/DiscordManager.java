@@ -5,10 +5,10 @@ import lombok.Setter;
 import net.minecraft.util.Identifier;
 import ru.kotopushka.compiler.sdk.classes.Profile;
 import aporia.cc.api.system.discord.utils.*;
-import aporia.cc.common.QuickImports;
-import aporia.cc.common.util.other.BufferUtil;
-import aporia.cc.common.util.other.StringUtil;
-import aporia.cc.core.Main;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.base.common.util.other.BufferUtil;
+import aporia.cc.api.base.common.util.other.StringUtil;
+import aporia.cc.api.base.core.Main;
 
 import java.io.IOException;
 

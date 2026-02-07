@@ -6,7 +6,7 @@ import lombok.experimental.Accessors;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.RotationAxis;
-import aporia.cc.common.QuickImports;
+import aporia.cc.api.base.common.QuickImports;
 import aporia.cc.api.system.shape.Shape;
 import aporia.cc.api.system.shape.ShapeProperties;
 

@@ -10,10 +10,10 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import aporia.cc.core.Main;
-import aporia.cc.api.feature.draggable.AbstractDraggable;
-import aporia.cc.common.QuickImports;
-import aporia.cc.implement.features.modules.render.Hud;
+import aporia.cc.api.base.core.Main;
+import aporia.cc.api.draggable.api.AbstractDraggable;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.module.impl.render.Hud;
 
 import java.util.List;
 

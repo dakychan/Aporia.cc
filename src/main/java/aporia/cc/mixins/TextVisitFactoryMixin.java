@@ -5,7 +5,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.implement.events.render.TextFactoryEvent;
+import aporia.cc.api.event.impl.render.TextFactoryEvent;
 
 @Mixin(value = {TextVisitFactory.class})
     public class TextVisitFactoryMixin {

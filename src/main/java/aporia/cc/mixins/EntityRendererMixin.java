@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import aporia.cc.implement.features.modules.render.EntityESP;
+import aporia.cc.module.impl.render.EntityESP;
 
 @Mixin(EntityRenderer.class)
 public abstract class EntityRendererMixin<S extends EntityRenderState> {

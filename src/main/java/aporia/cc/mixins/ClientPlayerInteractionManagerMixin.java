@@ -8,7 +8,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
-import net.minecraft.world.GameMode;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -16,12 +15,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
 import aporia.cc.api.event.types.EventType;
-import aporia.cc.common.util.item.ItemUsage;
-import aporia.cc.implement.events.block.BlockBreakingEvent;
-import aporia.cc.implement.events.block.BreakBlockEvent;
-import aporia.cc.implement.events.item.ClickSlotEvent;
-import aporia.cc.implement.events.item.UsingItemEvent;
-import aporia.cc.implement.events.player.AttackEvent;
+import aporia.cc.api.base.common.util.item.ItemUsage;
+import aporia.cc.api.event.impl.block.BlockBreakingEvent;
+import aporia.cc.api.event.impl.block.BreakBlockEvent;
+import aporia.cc.api.event.impl.item.ClickSlotEvent;
+import aporia.cc.api.event.impl.item.UsingItemEvent;
+import aporia.cc.api.event.impl.player.AttackEvent;
 
 @Mixin(ClientPlayerInteractionManager.class)
 public class ClientPlayerInteractionManagerMixin {

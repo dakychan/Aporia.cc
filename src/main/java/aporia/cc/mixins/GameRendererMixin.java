@@ -22,15 +22,15 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.util.entity.PlayerIntersectionUtil;
-import aporia.cc.common.util.render.Render3DUtil;
-import aporia.cc.implement.events.render.AspectRatioEvent;
-import aporia.cc.implement.events.render.FovEvent;
-import aporia.cc.implement.events.render.WorldRenderEvent;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.AngleUtil;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RaytracingUtil;
-import aporia.cc.implement.features.modules.combat.killaura.rotation.RotationController;
-import aporia.cc.implement.features.modules.misc.DebugCamera;
+import aporia.cc.api.base.common.util.entity.PlayerIntersectionUtil;
+import aporia.cc.api.base.common.util.render.Render3DUtil;
+import aporia.cc.api.event.impl.render.AspectRatioEvent;
+import aporia.cc.api.event.impl.render.FovEvent;
+import aporia.cc.api.event.impl.render.WorldRenderEvent;
+import aporia.cc.module.impl.combat.killaura.rotation.AngleUtil;
+import aporia.cc.module.impl.combat.killaura.rotation.RaytracingUtil;
+import aporia.cc.module.impl.combat.killaura.rotation.RotationController;
+import aporia.cc.module.impl.misc.DebugCamera;
 
 @Mixin(GameRenderer.class)
 public abstract class GameRendererMixin {

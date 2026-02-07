@@ -25,15 +25,15 @@ import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import aporia.cc.api.event.EventManager;
-import aporia.cc.common.QuickImports;
-import aporia.cc.common.util.other.BufferUtil;
-import aporia.cc.core.Main;
+import aporia.cc.api.base.common.QuickImports;
+import aporia.cc.api.base.common.util.other.BufferUtil;
+import aporia.cc.api.base.core.Main;
 import aporia.cc.api.file.exception.FileProcessingException;
 import aporia.cc.api.system.font.Fonts;
-import aporia.cc.common.util.logger.LoggerUtil;
-import aporia.cc.implement.events.container.SetScreenEvent;
-import aporia.cc.implement.events.player.HotBarUpdateEvent;
-import aporia.cc.implement.features.modules.combat.NoInteract;
+import aporia.cc.api.base.common.util.logger.LoggerUtil;
+import aporia.cc.api.event.impl.container.SetScreenEvent;
+import aporia.cc.api.event.impl.player.HotBarUpdateEvent;
+import aporia.cc.module.impl.combat.NoInteract;
 
 import java.io.IOException;
 
@@ -111,7 +111,7 @@ public abstract class MinecraftClientMixin implements QuickImports {
 
     @Inject(method = "getWindowTitle", at = @At("HEAD"), cancellable = true)
     private void onWindowTitle(CallbackInfoReturnable<String> cir) {
-        cir.setReturnValue("ZENITH - " + SharedConstants.getGameVersion().getName());
+        cir.setReturnValue("aporia - " + SharedConstants.getGameVersion().getName());
     }
 
     @Inject(method = "handleInputEvents", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/network/ClientPlayerEntity;getInventory()Lnet/minecraft/entity/player/PlayerInventory;"), cancellable = true)

@@ -7,7 +7,7 @@ import aporia.cc.api.event.events.EventStoppable;
 import aporia.cc.api.event.types.Priority;
 import aporia.cc.api.system.logger.implement.ConsoleLogger;
 import aporia.cc.api.system.logger.implement.MinecraftLogger;
-import aporia.cc.api.feature.module.exception.ModuleException;
+import aporia.cc.module.api.exception.ModuleException;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

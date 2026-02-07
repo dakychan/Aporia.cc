@@ -9,7 +9,7 @@ import net.minecraft.client.render.BufferRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import org.joml.Matrix4f;
 import org.joml.Vector4i;
-import aporia.cc.common.QuickImports;
+import aporia.cc.api.base.common.QuickImports;
 
 import static net.minecraft.client.render.VertexFormat.DrawMode.QUADS;
 import static net.minecraft.client.render.VertexFormats.POSITION_TEXTURE_COLOR;
