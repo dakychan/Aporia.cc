@@ -389,7 +389,7 @@ public class FontRenderer implements QuickImports {
 
     @Contract(value = "-> new", pure = true)
     public static @NotNull Identifier randomIdentifier() {
-        return Identifier.of("aporia", "temp/" + StringUtil.randomString(32));
+        return Identifier.of("Aporia", "temp/" + StringUtil.randomString(32));
     }
 
     @Contract(value = "_ -> new", pure = true)
