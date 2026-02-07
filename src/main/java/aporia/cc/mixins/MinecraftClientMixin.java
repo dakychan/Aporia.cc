@@ -111,7 +111,7 @@ public abstract class MinecraftClientMixin implements QuickImports {
 
     @Inject(method = "getWindowTitle", at = @At("HEAD"), cancellable = true)
     private void onWindowTitle(CallbackInfoReturnable<String> cir) {
-        cir.setReturnValue("aporia - " + SharedConstants.getGameVersion().getName());
+        cir.setReturnValue("Aporia.cc <> DEV 1.21.4");
     }
 
     @Inject(method = "handleInputEvents", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/network/ClientPlayerEntity;getInventory()Lnet/minecraft/entity/player/PlayerInventory;"), cancellable = true)
